@@ -11,6 +11,9 @@ public class DefaultCountingOutRhymer {
 
     private int total = IS_EMPTY_INDICATOR;
 
+    public int getTotal() {
+        return total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
