@@ -2,14 +2,14 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    public static final int NUMBERS_MAX_SIZE = 12;
+    private static final int NUMBERS_MAX_SIZE = 12;
 
-    public static final int IS_EMPTY_INDICATOR = -1;
+    private static final int IS_EMPTY_INDICATOR = -1;
 
-    public static final int DEFAULT_RETURN_VALUE = -1;
+    private static final int DEFAULT_RETURN_VALUE = -1;
     private final int[] numbers = new int[NUMBERS_MAX_SIZE];
 
-    public int total = IS_EMPTY_INDICATOR;
+    private int total = IS_EMPTY_INDICATOR;
 
 
     public void countIn(int in) {
